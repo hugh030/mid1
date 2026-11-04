@@ -184,6 +184,9 @@ footer {
     .hero h1 {
         font-size: 2rem;
     }
+    section h1 {
+        font-size: 1.5rem;
+    }
     .benefits-sec .card, .gacha-sec .card {
         flex: 0 0 calc((100% - 20px) / 2); /* 手機版變為一排兩個 */
     }
