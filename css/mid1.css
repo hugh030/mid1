@@ -181,12 +181,29 @@ footer {
         height: 50vh;
         margin-top: 120px;
     }
-    .hero-content h1 {
-        font-size: 3rem;
+    .hero h1 {
+        font-size: 2rem;
     }
     .benefits-sec .card, .gacha-sec .card {
         flex: 0 0 calc((100% - 20px) / 2); /* 手機版變為一排兩個 */
     }
+    /*article*/
+article{
+	flex-direction: column;
+}
+
+section > a:nth-of-type(2n) article{
+    flex-direction: column;
+}
+
+.a_right{
+    padding: 6%;
+}
+
+.a_right h2{
+    font-size: 2rem;
+}
+
 }
 
 @media only screen and (max-width: 480px) {
