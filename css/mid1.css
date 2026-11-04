@@ -205,9 +205,3 @@ section > a:nth-of-type(2n) article{
 }
 
 }
-
-@media only screen and (max-width: 480px) {
-    .benefits-sec .card, .gacha-sec .card {
-        flex: 0 0 100%; /* 極小螢幕變為一排一個 */
-    }
-}
